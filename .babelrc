@@ -1,0 +1,11 @@
+{
+	"presets": ["env"],
+	"plugins": [
+    ["module-alias", [
+      { "src": "./src/models", "expose": "models" },
+      { "src": "./src/controllers", "expose": "controllers" },
+      { "src": "./src/routes", "expose": "routes" },
+      { "src": "./src/auth", "expose": "auth" }
+    ]]
+  ]
+}
