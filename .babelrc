@@ -5,7 +5,8 @@
       { "src": "./src/models", "expose": "models" },
       { "src": "./src/controllers", "expose": "controllers" },
       { "src": "./src/routes", "expose": "routes" },
-      { "src": "./src/auth", "expose": "auth" }
+      { "src": "./src/auth", "expose": "auth" },
+      { "src": "./src/middleware", "expose": "middleware" }
     ]]
   ]
 }
